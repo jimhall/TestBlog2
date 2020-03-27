@@ -8,5 +8,5 @@ twitter_username: jimhall37
 github_username: jimhall
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-permalink: /TestBlog2/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 theme: jekyll-theme-hacker
