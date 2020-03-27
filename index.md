@@ -12,6 +12,6 @@ works.
 
 <ul>
 {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="/Test2/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="TestBlog2/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
