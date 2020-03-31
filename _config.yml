@@ -1,11 +1,11 @@
-title: Deep Thoughts From the Desk of Jim Hall
+title: '/dev/jimhall | grep "interesting things"'
 author: Jim Hall
 email: jimhallsun@gmail.com
 description: Part 2 Mainly a place to write down some things learned
 
 #social links
 twitter_username: jimhall37
-github_username: jimhall
+#github_username: jimhall
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 theme: jekyll-theme-hacker
