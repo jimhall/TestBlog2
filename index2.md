@@ -10,7 +10,7 @@ This is the second pathetic attempt to add content and figure out how Jekyll
 works.
 
 <ul>
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       <li>
           <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
