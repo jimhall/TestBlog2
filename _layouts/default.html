@@ -18,9 +18,11 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
     </header>
 
+    <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
+    </div>
 
     {% if site.google_analytics %}
       <script>
