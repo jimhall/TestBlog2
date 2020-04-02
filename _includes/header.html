@@ -1,4 +1,5 @@
 <!-- Begin code @ _includes/header.html -->
+
   <header>
     <div class="container">
       <a id="a-title" href="{{ '/' | relative_url }}">
@@ -6,10 +7,14 @@
       </a>
       <h2>{{ site.description | default: site.github.project_tagline }}</h2>
     </div>
+
+    <!-- See: https://css-tricks.com/forums/topic/h1-and-h2-tags-on-same-line/ -->
+
     <div class="container">
       <a href="{{ '/archive' | relative_url }}"><h2 style="display:inline;">Archive</h2></a>
       <a href="{{ '/about' | relative_url }}"><h2 style="display:inline;">About</h2></a>
       <a href="{{ '/atom.xml' | relative_url }}"><h2 style="display:inline;">RSS</h2></a>
     </div>
   </header>
+
   <!-- End code @ _includes/header.html -->
