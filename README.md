@@ -1,5 +1,12 @@
 ## Welcome to GitHub Pages
 
+Credit where credit is due....
+
+- Got some ideas here regarding changing default hacker
+[Source code of hacker-blog](https://github.com/tocttou/hacker-blog)
+[hacker-blog](https://ashishchaudhary.in/hacker-blog/)
+
+
 You can use the [editor on GitHub](https://github.com/jimhall/TestBlog2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
