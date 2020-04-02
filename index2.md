@@ -3,6 +3,8 @@ layout: default2
 title: Welcome to my blog
 ---
 
+<!-- Begin code @ index2.md -->
+
 # Welcome to my blog
 
 I'm glad you are here. I plan to talk about ...
@@ -18,3 +20,5 @@ works.
     <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 {% endfor %}
 </ul>
+
+<!-- End code @ index2.md -->
