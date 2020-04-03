@@ -1,6 +1,6 @@
 <!-- Begin code @ _includes/footer.html -->
 <style>
-footer {
+footer h2 {
   left: 0;
   bottom: 0;
   width: 90%;
@@ -9,9 +9,6 @@ footer {
   font-weight:300;
   color: #666
 }
-footer h2 {
-    color: #666
-}
 </style>
 <!-- <style>
 header h2 {
@@ -19,17 +16,17 @@ header h2 {
     font-weight:300;
     color: #666
 }
+footer h2 {
+    color: #666
+}
 </style>
 -->
 
     <footer> 
-    <div class="footer"> 
-<!--    <div class="container"> -->
-<!--    <footer> -->
-      <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
-        <h2>{{ site.author}} {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %} © {{ currentyear }}</h2>
-      </a>
-<!--   </footer> -->
-   </div>
-   </footer>
-    <!-- End code @ _includes/footer.html -->
+      <div class="footer"> 
+        <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+          <h2>{{ site.author}} {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %} © {{ currentyear }}</h2>
+        </a>
+     </div>
+     </footer>
+      <!-- End code @ _includes/footer.html -->
