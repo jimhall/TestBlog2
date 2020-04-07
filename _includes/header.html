@@ -7,6 +7,14 @@
 .svg-icon {
     padding:5px 5px 2px 0
 }
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align:text-bottom
+}
 .feed-subscribe .svg-icon {
     padding:5px 5px 2px 0
 }
@@ -25,7 +33,7 @@
     <div class="container">
       <a href="{{ '/archive' | relative_url }}"><h2 style="display:inline;">Archive</h2></a>
       <a href="{{ '/about' | relative_url }}"><h2 style="display:inline;">About</h2></a>
-      <svg>
+      <svg class="svg-icon orange">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
         </use>
       </svg>
