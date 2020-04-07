@@ -13,10 +13,9 @@
     display: inline-block;
     fill: currentColor;
     vertical-align:text-bottom;
-    text-align: right
+    padding: 5px 3px 2px 75px;
 }
 </style>
-    <!-- padding: 5px 3px 2px 75px; -->
 
   <header>
     <div class="container">
@@ -32,23 +31,13 @@
       <a href="{{ '/archive' | relative_url }}"><h2 style="display:inline;">Archive</h2></a>
       <a href="{{ '/about' | relative_url }}"><h2 style="display:inline;">About</h2></a>
       <a href="{{ '/atom.xml' | relative_url }}">
-      <h2 style="display:inline; text-align:right">
+      <h2 style="display:inline;">
       <svg class="svg-icon orange">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
         </use>
       </svg>Subscribe
       </h2>
       </a>
-        
-    <!-- Stolen style from minima See: https://github.com/jekyll/minima -->
-<!--      <a href="{{ '/atom.xml' | relative_url }}"><h2 style="display:inline;">
-        <svg class="svg-icon orange">
-          <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
-          </use>
-        </svg><span>RSS Subscribe</span>
-        </h2>
-      </a>
-      -->
     </div>
   </header>
 
