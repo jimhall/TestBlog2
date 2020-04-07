@@ -1,5 +1,13 @@
 <!-- Begin code @ _includes/header.html -->
 
+<style>
+.orange {
+    color:#f66a0a
+}
+.feed-subscribe .svg-icon {
+    padding:5px 5px 2px 0
+}
+
   <header>
     <div class="container">
       <a id="a-title" href="{{ '/' | relative_url }}">
@@ -13,7 +21,14 @@
     <div class="container">
       <a href="{{ '/archive' | relative_url }}"><h2 style="display:inline;">Archive</h2></a>
       <a href="{{ '/about' | relative_url }}"><h2 style="display:inline;">About</h2></a>
-      <a href="{{ '/atom.xml' | relative_url }}"><h2 style="display:inline;">RSS</h2></a>
+    <!-- Stolen style from minima See: https://github.com/jekyll/minima -->
+      <a href="{{ '/atom.xml' | relative_url }}"><h2 style="display:inline;">
+        <svg class="svg-icon orange">
+          <use xlink:href="{{ /assets/minima-social-icons.svg#rss | relative_url }}">
+          </use>
+        </svg><span>RSS Subscribe</span>
+        </h2>
+      </a>
     </div>
   </header>
 
