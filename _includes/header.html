@@ -15,9 +15,6 @@
     padding: 5px 3px 2px 5px;
     vertical-align:text-bottom
 }
-.feed-subscribe .svg-icon {
-    padding:5px 5px 2px 0
-}
 </style>
 
   <header>
@@ -33,10 +30,12 @@
     <div class="container">
       <a href="{{ '/archive' | relative_url }}"><h2 style="display:inline;">Archive</h2></a>
       <a href="{{ '/about' | relative_url }}"><h2 style="display:inline;">About</h2></a>
+      <a href="{{ '/atom.xml' | relative_url }}">
       <svg class="svg-icon orange">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
         </use>
-      </svg>
+      </svg><span>Subscribe</span>
+      </a>
         
     <!-- Stolen style from minima See: https://github.com/jekyll/minima -->
 <!--      <a href="{{ '/atom.xml' | relative_url }}"><h2 style="display:inline;">
