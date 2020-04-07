@@ -3,23 +3,69 @@
 <!-- https://www.w3schools.com/css/css_howto.asp -->
 
 <style>
+.green {
+    color:#b5e853
+}
 footer h2 {
   left: 0;
   bottom: 0;
   width: 90%;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight:300;
   color: #666
 }
 </style>
 
     <footer> 
+    <!-- NEW CODE -->
+    <div class="wrapper">
+
+    <!-- Not needed
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/minima/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/minima/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">GitHub User</li>
+          <li><a class="u-email" href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+    Not needed -->
+
+    <div class="social-links">
+        <ul class="social-media-list">
+        <li><a rel="me" href="https://github.com/jekyll" title="jekyll">
+        <svg class="svg-icon green">
+        <use xlink:href="/minima/assets/minima-social-icons.svg#github"></use>
+        </svg></a></li>
+        <li><a rel="me" href="https://twitter.com/jekyllrb" title="jekyllrb">
+        <svg class="svg-icon green">
+        <use xlink:href="/minima/assets/minima-social-icons.svg#twitter"></use>
+        </svg></a></li></ul>
+    </div>
+</div>
+
+  <!-- END NEW CODE -->
+
+
+  <!-- BEGIN OLD CODE 
       <div class="footer"> 
         <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
           <h2>{{ site.author}} {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %} © {{ currentyear }}</h2>
         </a>
      </div>
+     END OLD COLD-->
      </footer>
 
       <!-- End code @ _includes/footer.html -->
