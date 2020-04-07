@@ -6,6 +6,14 @@ Credit where credit is due....
 [Source code of hacker-blog](https://github.com/tocttou/hacker-blog)
 [hacker-blog](https://ashishchaudhary.in/hacker-blog/)
 
+- Here is how CSS padding works:
+
+[CSS Tricks](https://css-tricks.com/almanac/properties/p/padding/)
+
+.box {
+  padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+}
+
 
 You can use the [editor on GitHub](https://github.com/jimhall/TestBlog2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
