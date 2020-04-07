@@ -15,6 +15,30 @@ footer h2 {
   font-weight:300;
   color: #666
 }
+.social-media-list li a, .pagination li a {
+    display: block;
+    padding: 7.5px;
+    border:1px solid #b5e853
+}
+.social-media-list li a:hover, .pagination li a:hover {
+    border-color:#cfcfcf
+}
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align:text-bottom
+}
+.social-media-list li, .pagination li {
+    float: left;
+    margin:5px 10px 5px 0
+}
+
+.social-media-list li:last-of-type, .pagination li:last-of-type {
+    margin-right:0
+}
 </style>
 
     <footer> 
@@ -45,16 +69,16 @@ footer h2 {
 
     <div class="social-links">
         <ul class="social-media-list">
-        <li><a rel="me" href="https://github.com/jekyll" title="jekyll">
+        <li><a rel="me" href="https://github.com/jimhall" title="Jim Hall">
         <svg class="svg-icon green">
-        <use xlink:href="/minima/assets/minima-social-icons.svg#github"></use>
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
         </svg></a></li>
-        <li><a rel="me" href="https://twitter.com/jekyllrb" title="jekyllrb">
+        <li><a rel="me" href="https://twitter.com/jimhall37" title="@jimhall37">
         <svg class="svg-icon green">
-        <use xlink:href="/minima/assets/minima-social-icons.svg#twitter"></use>
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
         </svg></a></li></ul>
     </div>
-</div>
+  </div>
 
   <!-- END NEW CODE -->
 
