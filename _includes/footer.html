@@ -15,7 +15,14 @@ footer h2 {
   font-weight:300;
   color: #666
 }
-
+.social-media-list, .pagination {
+    display: table;
+    margin:0 auto
+}
+.social-media-list li, .pagination li {
+    list-style: none;
+    margin:5px 10px 5px 0
+}
 .social-media-list li a, .pagination li a {
     display: block;
     padding: 7.5px;
@@ -24,21 +31,16 @@ footer h2 {
 .social-media-list li a:hover, .pagination li a:hover {
     border-color:#cfcfcf
 }
-.svg-icon {
+.social-media-list li:last-of-type, .pagination li:last-of-type {
+    margin-right:0
+}
+footer.svg-icon {
     width: 16px;
     height: 16px;
     display: inline-block;
     fill: currentColor;
     padding: 5px 3px 2px 5px;
     vertical-align:text-bottom
-}
-.social-media-list li, .pagination li {
-    list-style: none;
-    margin:5px 10px 5px 0
-}
-
-.social-media-list li:last-of-type, .pagination li:last-of-type {
-    margin-right:0
 }
 footer.social-media-list {
     list-style: none;
