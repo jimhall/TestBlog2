@@ -12,7 +12,8 @@ I'm glad you are here. I plan to talk about ...
 stuff
 
 <div class="container">
-  <svg class="svg-footicon green">
+<!--  <svg class="svg-footicon green"> -->
+  <svg>
   <use xlink:href="{{ '/assets/favicon/jh-favico.svg' | relative_url }}"></use>
   </svg>
 </div>
