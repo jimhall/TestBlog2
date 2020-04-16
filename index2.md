@@ -18,6 +18,8 @@ stuff
   </svg>
 </div>
 
+![jimhall](/TestBlog2/assets/favicon/jh-favico.svg)
+
 This is the second pathetic attempt to add content and figure out how Jekyll
 works.
 
