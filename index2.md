@@ -11,7 +11,7 @@ I'm glad you are here. I plan to talk about ...
 
 stuff
 
-![Image of Site for Jim Hall](/assets/favicon/android-chrome-512x512.png)
+![Image of Site for Jim Hall](/assets/favicon/jh-favico.svg)
 
 This is the second pathetic attempt to add content and figure out how Jekyll
 works.
