@@ -8,6 +8,7 @@
 
   <link href="{{ '/atom.xml'| relative_url }}" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> 
 
+<!-- Needs to be migrated to the final site BEGIN -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
@@ -17,6 +18,13 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="{{ '/assets/favicon/browserconfig.xml' | relative_url }}">
   <meta name="theme-color" content="#ffffff">
+<!-- tags added based on https://css-tricks.com/essential-meta-tags-social-media/ -->
+
+<meta property="og:image" content="{{ '/assets/favicon/jh-favico.svg' | relative_url }}">
+<meta property="twitter:card" content="{{ '/assets/favicon/jh-favico.svg' | relative_url }}">
+<meta name="twitter:image:alt" content="Jim Hall's Blog">
+<meta name="twitter:site" content="@jimhall37">
+<!-- Needs to be migrated to the final site END -->
 
 {% seo %}
 
